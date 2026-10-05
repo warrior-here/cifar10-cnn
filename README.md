@@ -4,7 +4,6 @@ A convolutional neural network for CIFAR-10 image classification, built in PyTor
 
 **Result: 82.4% test accuracy** with a 3-block CNN of about 620,000 parameters, trained for 25 epochs on a free Colab T4 GPU.
 
-This is the second of three portfolio projects. The first, [numpy-mlp-mnist](https://github.com/warrior-here/numpy-mlp-mnist), implements an MLP and backpropagation by hand in NumPy. This one moves to PyTorch and convolutions.
 
 ## Summary of findings
 
