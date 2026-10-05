@@ -63,12 +63,6 @@ Test accuracy: **82.4%** (8,240 of 10,000 images), against 82.8% on validation.
 - **No per-run tuning.** Learning rate and batch size were fixed at common defaults. Dropout was tried at two rates in one position, so the conclusion is limited to this setting.
 - **Still improving at epoch 25.** The regularised runs had not plateaued, so longer training would likely raise accuracy.
 
-## Possible next steps
-
-- Repeat each configuration over several seeds and report mean and standard deviation.
-- Train longer with a learning-rate schedule.
-- Add residual connections and more depth.
-- Add weight decay and label smoothing.
 
 ## Repository contents
 
